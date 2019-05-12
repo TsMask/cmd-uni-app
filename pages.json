@@ -1,0 +1,143 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "cmd-组件"
+      }
+    },
+    {
+      "path": "pages/icon/icon",
+      "style": {
+        "navigationBarTitleText": "图标"
+      }
+    },
+    {
+      "path": "pages/avatar/avatar",
+      "style": {
+        "navigationBarTitleText": "头像"
+      }
+    },
+    {
+      "path": "pages/badge/badge",
+      "style": {
+        "navigationBarTitleText": "微标"
+      }
+    },
+    {
+      "path": "pages/curtain/curtain",
+      "style": {
+        "navigationBarTitleText": "幕帘"
+      }
+    },
+    {
+      "path": "pages/divider/divider",
+      "style": {
+        "navigationBarTitleText": "分隔线"
+      }
+    },
+    {
+      "path": "pages/progress/progress",
+      "style": {
+        "navigationBarTitleText": "进度条"
+      }
+    },
+    {
+      "path": "pages/notice-bar/notice-bar",
+      "style": {
+        "navigationBarTitleText": "通知栏"
+      }
+    },
+    {
+      "path": "pages/cell-item/cell-item",
+      "style": {
+        "navigationBarTitleText": "列表单元"
+      }
+    },
+    {
+      "path": "pages/input/input",
+      "style": {
+        "navigationBarTitleText": "输入框"
+      }
+    },
+    {
+      "path": "pages/bottom-nav/bottom-nav",
+      "style": {
+        "navigationBarTitleText": "底部导航栏"
+      }
+    },
+    {
+      "path": "pages/tool-bar/tool-bar",
+      "style": {
+        "navigationBarTitleText": "顶部工具栏",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    },
+    {
+      "path": "pages/nav-bar/nav-bar",
+      "style": {
+        "navigationBarTitleText": "顶部导航栏",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    },
+    {
+      "path": "pages/page-body/page-body",
+      "style": {
+        "navigationBarTitleText": "导航内容区",
+        "app-plus": {
+          "titleNView": false //禁用原生导航栏
+        }
+      }
+    },
+    {
+      "path": "pages/result-page/result-page",
+      "style": {
+        "navigationBarTitleText": "结果页"
+      }
+    },
+    {
+      "path": "pages/transition/transition",
+      "style": {
+        "navigationBarTitleText": "动画"
+      }
+    },
+    {
+      "path": "pages/html-parser/html-parser",
+      "style": {
+        "navigationBarTitleText": "HTML 文本解析器"
+      }
+    }
+  ],
+  // 全局bar样式
+  "globalStyle": {
+    "navigationBarTitleText": "cmd组件库",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#f44336",
+    "backgroundColor": "#ffffff",
+    "app-plus": {
+      // 不显示滚动条
+      // "scrollIndicator" : "none"
+    }
+  },
+  // 模式配置，仅开发期间生效
+  "condition": {
+    "current": 0, //当前激活的模式（list 的索引项）
+    "list": [
+      // 激活页面路由参数
+      {
+        "name": "index", //首页
+        "path": "pages/index/index"
+      },
+      {
+        "name": "input",
+        "path": "pages/input/input", //启动页面，必选
+        "query": "cv=ssq" //启动参数，在页面的onLoad函数里面得到。
+      }
+    ]
+  }
+}
