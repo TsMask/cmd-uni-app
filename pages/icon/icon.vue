@@ -158,111 +158,15 @@
     <br />
     <br />
 
-    <view>
-      <view class="uni-h2">
-        uni-icon图标
-      </view>
-      contact <uni-icon type="contact" size="30" color="#654321"></uni-icon> <br />
-      person <uni-icon type="person" size="30" color="#654321"></uni-icon> <br />
-      personadd <uni-icon type="personadd" size="30" color="#654321"></uni-icon> <br />
-      contact-filled <uni-icon type="contact-filled" size="30" color="#654321"></uni-icon> <br />
-      person-filled <uni-icon type="person-filled" size="30" color="#654321"></uni-icon> <br />
-      personadd-filled <uni-icon type="personadd-filled" size="30" color="#654321"></uni-icon> <br />
-      phone <uni-icon type="phone" size="30" color="#654321"></uni-icon> <br />
-      email <uni-icon type="email" size="30" color="#654321"></uni-icon> <br />
-      chatbubble <uni-icon type="chatbubble" size="30" color="#654321"></uni-icon> <br />
-      chatboxes <uni-icon type="chatboxes" size="30" color="#654321"></uni-icon> <br />
-      phone-filled <uni-icon type="phone-filled" size="30" color="#654321"></uni-icon> <br />
-      email-filled <uni-icon type="email-filled" size="30" color="#654321"></uni-icon> <br />
-      chatbubble-filled <uni-icon type="chatbubble-filled" size="30" color="#654321"></uni-icon> <br />
-      chatboxes-filled <uni-icon type="chatboxes-filled" size="30" color="#654321"></uni-icon> <br />
-      weibo <uni-icon type="weibo" size="30" color="#654321"></uni-icon> <br />
-      weixin <uni-icon type="weixin" size="30" color="#654321"></uni-icon> <br />
-      pengyouquan <uni-icon type="pengyouquan" size="30" color="#654321"></uni-icon> <br />
-      chat <uni-icon type="chat" size="30" color="#654321"></uni-icon> <br />
-      qq <uni-icon type="qq" size="30" color="#654321"></uni-icon> <br />
-      videocam <uni-icon type="videocam" size="30" color="#654321"></uni-icon> <br />
-      camera <uni-icon type="camera" size="30" color="#654321"></uni-icon> <br />
-      mic <uni-icon type="mic" size="30" color="#654321"></uni-icon> <br />
-      mic-filled <uni-icon type="mic-filled" size="30" color="#654321"></uni-icon> <br />
-      location <uni-icon type="location" size="30" color="#654321"></uni-icon> <br />
-      location-filled <uni-icon type="location-filled" size="30" color="#654321"></uni-icon> <br />
-      micoff <uni-icon type="micoff" size="30" color="#654321"></uni-icon> <br />
-      image <uni-icon type="image" size="30" color="#654321"></uni-icon> <br />
-      map <uni-icon type="map" size="30" color="#654321"></uni-icon> <br />
-      compose <uni-icon type="compose" size="30" color="#654321"></uni-icon> <br />
-      trash <uni-icon type="trash" size="30" color="#654321"></uni-icon> <br />
-      upload <uni-icon type="upload" size="30" color="#654321"></uni-icon> <br />
-      download <uni-icon type="download" size="30" color="#654321"></uni-icon> <br />
-      close <uni-icon type="close" size="30" color="#654321"></uni-icon> <br />
-      redo <uni-icon type="redo" size="30" color="#654321"></uni-icon> <br />
-      undo <uni-icon type="undo" size="30" color="#654321"></uni-icon> <br />
-      refresh <uni-icon type="refresh" size="30" color="#654321"></uni-icon> <br />
-      star <uni-icon type="star" size="30" color="#654321"></uni-icon> <br />
-      plus <uni-icon type="plus" size="30" color="#654321"></uni-icon> <br />
-      minus <uni-icon type="minus" size="30" color="#654321"></uni-icon> <br />
-      circle <uni-icon type="circle" size="30" color="#654321"></uni-icon> <br />
-      clear <uni-icon type="clear" size="30" color="#654321"></uni-icon> <br />
-      refresh-filled <uni-icon type="refresh-filled" size="30" color="#654321"></uni-icon> <br />
-      star-filled <uni-icon type="star-filled" size="30" color="#654321"></uni-icon> <br />
-      plus-filled <uni-icon type="plus-filled" size="30" color="#654321"></uni-icon> <br />
-      minus-filled <uni-icon type="minus-filled" size="30" color="#654321"></uni-icon> <br />
-      circle-filled <uni-icon type="circle-filled" size="30" color="#654321"></uni-icon> <br />
-      checkbox-filled <uni-icon type="checkbox-filled" size="30" color="#654321"></uni-icon> <br />
-      closeempty <uni-icon type="closeempty" size="30" color="#654321"></uni-icon> <br />
-      refreshempty <uni-icon type="refreshempty" size="30" color="#654321"></uni-icon> <br />
-      reload <uni-icon type="reload" size="30" color="#654321"></uni-icon> <br />
-      starhalf <uni-icon type="starhalf" size="30" color="#654321"></uni-icon> <br />
-      spinner <uni-icon type="spinner" size="30" color="#654321"></uni-icon> <br />
-      spinner-cycle <uni-icon type="spinner-cycle" size="30" color="#654321"></uni-icon> <br />
-      search <uni-icon type="search" size="30" color="#654321"></uni-icon> <br />
-      plusempty <uni-icon type="plusempty" size="30" color="#654321"></uni-icon> <br />
-      forward <uni-icon type="forward" size="30" color="#654321"></uni-icon> <br />
-      back <uni-icon type="back" size="30" color="#654321"></uni-icon> <br />
-      checkmarkempty <uni-icon type="checkmarkempty" size="30" color="#654321"></uni-icon> <br />
-      home <uni-icon type="home" size="30" color="#654321"></uni-icon> <br />
-      navigate <uni-icon type="navigate" size="30" color="#654321"></uni-icon> <br />
-      gear <uni-icon type="gear" size="30" color="#654321"></uni-icon> <br />
-      paperplane <uni-icon type="paperplane" size="30" color="#654321"></uni-icon> <br />
-      info <uni-icon type="info" size="30" color="#654321"></uni-icon> <br />
-      help <uni-icon type="help" size="30" color="#654321"></uni-icon> <br />
-      locked <uni-icon type="locked" size="30" color="#654321"></uni-icon> <br />
-      more <uni-icon type="more" size="30" color="#654321"></uni-icon> <br />
-      flag <uni-icon type="flag" size="30" color="#654321"></uni-icon> <br />
-      home-filled <uni-icon type="home-filled" size="30" color="#654321"></uni-icon> <br />
-      gear-filled <uni-icon type="gear-filled" size="30" color="#654321"></uni-icon> <br />
-      info-filled <uni-icon type="info-filled" size="30" color="#654321"></uni-icon> <br />
-      help-filled <uni-icon type="help-filled" size="30" color="#654321"></uni-icon> <br />
-      more-filled <uni-icon type="more-filled" size="30" color="#654321"></uni-icon> <br />
-      settings <uni-icon type="settings" size="30" color="#654321"></uni-icon> <br />
-      list <uni-icon type="list" size="30" color="#654321"></uni-icon> <br />
-      bars <uni-icon type="bars" size="30" color="#654321"></uni-icon> <br />
-      loop <uni-icon type="loop" size="30" color="#654321"></uni-icon> <br />
-      paperclip <uni-icon type="paperclip" size="30" color="#654321"></uni-icon> <br />
-      eye <uni-icon type="eye" size="30" color="#654321"></uni-icon> <br />
-      arrowup <uni-icon type="arrowup" size="30" color="#654321"></uni-icon> <br />
-      arrowdown <uni-icon type="arrowdown" size="30" color="#654321"></uni-icon> <br />
-      arrowleft <uni-icon type="arrowleft" size="30" color="#654321"></uni-icon> <br />
-      arrowright <uni-icon type="arrowright" size="30" color="#654321"></uni-icon> <br />
-      arrowthinup <uni-icon type="arrowthinup" size="30" color="#654321"></uni-icon> <br />
-      arrowthindown <uni-icon type="arrowthindown" size="30" color="#654321"></uni-icon> <br />
-      arrowthinleft <uni-icon type="arrowthinleft" size="30" color="#654321"></uni-icon> <br />
-      arrowthinright <uni-icon type="arrowthinright" size="30" color="#654321"></uni-icon> <br />
-      pulldown <uni-icon type="pulldown" size="30" color="#654321"></uni-icon> <br />
-      scan <uni-icon type="scan" size="30" color="#654321"></uni-icon> <br />
-    </view>
-
   </view>
 </template>
 
 <script>
   import cmdIcon from '@/components/cmd-icon/cmd-icon.vue'
-  import uniIcon from "@/components/uni-icon/uni-icon.vue"
 
   export default {
     components: {
       cmdIcon,
-      uniIcon
     },
     data() {
       return {

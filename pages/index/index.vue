@@ -9,6 +9,7 @@
     <button class="btn" @click="fnOpen('icon')">图标</button>
     <button class="btn" @click="fnOpen('input')">输入框</button>
     <button class="btn" @click="fnOpen('progress')">进度条</button>
+    <button class="btn" @click="fnOpen('circle')">进度圈</button>
     <button class="btn" @click="fnOpen('result-page')">结果页</button>
     <button class="btn" @click="fnOpen('nav-bar')">顶部导航栏</button>
     <button class="btn" @click="fnOpen('bottom-nav')">底部导航栏</button>
@@ -36,8 +37,9 @@
 
 <style>
   .btn {
-    background: #f44336;
+    background: #03a9f4;
     color: #fff;
-    margin: 20upx 0;
+    margin: 20rpx auto;
+    width: 90%;
   }
 </style>

@@ -1,5 +1,7 @@
 <template>
   <view>
+    <button type="primary" v-on:click="show = !show">你好</button>
+    
     <!-- #ifdef H5 -->
     <cmd-transition name="fade">
       <view v-if="show">你好，uni-app</view>
@@ -41,7 +43,7 @@
       <view v-if="show">你好，uni-app</view>
     </cmd-transition>
     <!-- #endif -->
-    <button type="primary" v-on:click="show = !show">你好</button>
+    
     <!-- #ifndef H5 -->
     <cmd-transition v-if="show" name="fade">
       <view>你好，uni-app</view>

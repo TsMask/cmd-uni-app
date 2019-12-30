@@ -399,18 +399,12 @@
 </script>
 
 <style>
-  .cmd-progress {
-    font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 28upx;
-    font-variant: tabular-nums;
-    line-height: 1.5;
-    color: rgba(0, 0, 0, 0.65);
+  .cmd-progress { 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
     display: inline-block;
-    /*进度圈*/
   }
 
   .cmd-progress-line {

@@ -3,7 +3,7 @@
     <!-- 顶部导航栏组件 -->
     <cmd-nav-bar back :title="title" iconTwo="add"></cmd-nav-bar>
     <!-- 内容区 start -->
-    <cmd-page-body type="top-bottom" background-color="red">
+    <cmd-page-body type="top-bottom" background-color="#f5f5f5">
       <view v-if="current == 0">
         首页
       </view>

@@ -18,6 +18,5 @@
 
 <style>
   /* 全局样式 */
-  @import url("./common/uni/uni.css");
   @import url("./common/anticon/iconfont.css");
 </style>

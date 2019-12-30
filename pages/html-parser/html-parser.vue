@@ -3,8 +3,8 @@
     <view style="background: #f5f5f5;">
       HTML 文本解析器-等一下网络响应
     </view>
-    <view class="" v-for="t in title" :key="t">
-      {{t}}
+    <view class="" v-for="(item,index) in list" :key="index">
+      {{item.downNum}} - {{item.title}}
     </view>
   </view>
 </template>
@@ -14,14 +14,14 @@
   export default {
     data() {
       return {
-        title: []
+        list: []
       };
     },
     onLoad() {
       // 触发请求数据
       this.parserData().then(res => {
-        console.log(JSON.stringify(res));
-        this.title = res.data;
+        console.log(res);
+        this.list = res.data;
       });
 
     },
@@ -35,7 +35,7 @@
         // 成功返回
         if (res) {
           // 数据存放
-          const pluginTitle = [];
+          const pluginList = [];
           // 获取HTML文本转DOM操作
           const doc = new HTMLParser(res.data.toString().trim());
           // 选取插件列表内层的HTML文本
@@ -44,15 +44,28 @@
           const pluginArrayDoc = new HTMLParser(pluginListText).getElementsByTagName('li');
           // 遍历每个插件对象
           for (let plugin of pluginArrayDoc) {
+            // 插件对象
+            let pluginObject = {};
             // 插件对象HTML文本转DOM操作
             let pluginDoc = new HTMLParser(plugin.innerHTML);
             // 获取插件标题转DOM操作
-            let pluginTitleDoc = new HTMLParser(pluginDoc.getElementsByClassName('extend-title')[0].innerHTML);
-            pluginTitle.push(pluginTitleDoc.getElementsByTagName('a')[0].innerHTML);
+            let pluginTitleDoc = new HTMLParser(pluginDoc.getElementsByClassName('extend-title')[0].innerHTML.trim());
+            pluginObject.title = pluginTitleDoc['_elements'][0].innerHTML.trim();
+            // 获取插件下载次数转DOM操作
+            if (pluginDoc.getElementsByClassName('download').length) {
+              let downNumText = pluginDoc.getElementsByClassName('download')[0]['innerHTML'].trim();
+              pluginObject.downNum = downNumText.substr(downNumText.lastIndexOf(';') + 1);
+            } else if (pluginDoc.getElementsByClassName('buy').length) {
+              let buyNumText = pluginDoc.getElementsByClassName('buy')[0]['innerHTML'].trim();
+              pluginObject.downNum = buyNumText.substr(buyNumText.lastIndexOf(';') + 1);
+            }
+            // 存入数据
+            pluginList.push(pluginObject);
+            pluginObject = {};
           }
           // 返回数据
           jsonData.errMsg = "请求成功"
-          jsonData.data = pluginTitle;
+          jsonData.data = pluginList;
         }
         // 失败返回
         if (error) {

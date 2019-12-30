@@ -7,11 +7,11 @@
     "transformPx" : false,
     "app-plus" : {
         // 自定义组件模式
-        "usingComponents":true,
+        "usingComponents" : true,
         /* 5+App特有相关 */
         "splashscreen" : {
             "alwaysShowBeforeRender" : true,
-            "waiting" : true,
+            "waiting" : false,
             "autoclose" : true,
             "delay" : 0
         },
@@ -46,7 +46,9 @@
                     "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
                 ]
             },
-            "ios" : {},
+            "ios" : {
+                "idfa" : false
+            },
             /* ios打包配置 */
             "sdkConfigs" : {}
         }
@@ -56,16 +58,19 @@
     /* 快应用特有相关 */
     "mp-weixin" : {
         // 自定义组件模式
-        "usingComponents":true,
+        "usingComponents" : true,
         /* 小程序特有相关 */
-        "appid" : "",
+        "appid" : "wx3387ba335d12325b",
         "setting" : {
-            "urlCheck" : true
+            "urlCheck" : false,
+            "minified" : true,
+            "es6" : true,
+            "postcss" : true
         }
     },
     "h5" : {
         "devServer" : {
-            "port" : 8088
+            "port" : 8080
         }
     }
 }

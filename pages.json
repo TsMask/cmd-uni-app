@@ -44,6 +44,12 @@
       }
     },
     {
+      "path": "pages/circle/circle",
+      "style": {
+        "navigationBarTitleText": "进度圈"
+      }
+    },
+    {
       "path": "pages/notice-bar/notice-bar",
       "style": {
         "navigationBarTitleText": "通知栏"
@@ -71,6 +77,7 @@
       "path": "pages/tool-bar/tool-bar",
       "style": {
         "navigationBarTitleText": "顶部工具栏",
+        "navigationStyle":"custom",
         "app-plus": {
           "titleNView": false //禁用原生导航栏
         }
@@ -80,6 +87,7 @@
       "path": "pages/nav-bar/nav-bar",
       "style": {
         "navigationBarTitleText": "顶部导航栏",
+        "navigationStyle":"custom",
         "app-plus": {
           "titleNView": false //禁用原生导航栏
         }
@@ -89,6 +97,7 @@
       "path": "pages/page-body/page-body",
       "style": {
         "navigationBarTitleText": "导航内容区",
+        "navigationStyle":"custom",
         "app-plus": {
           "titleNView": false //禁用原生导航栏
         }
@@ -117,7 +126,7 @@
   "globalStyle": {
     "navigationBarTitleText": "cmd组件库",
     "navigationBarTextStyle": "white",
-    "navigationBarBackgroundColor": "#f44336",
+    "navigationBarBackgroundColor": "#2196f3",
     "backgroundColor": "#ffffff",
     "app-plus": {
       // 不显示滚动条
@@ -137,6 +146,10 @@
         "name": "input",
         "path": "pages/input/input", //启动页面，必选
         "query": "cv=ssq" //启动参数，在页面的onLoad函数里面得到。
+      },
+      {
+        "name": "circle",
+        "path": "pages/circle/circle" //进度条
       }
     ]
   }
